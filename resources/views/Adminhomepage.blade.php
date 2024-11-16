@@ -41,51 +41,101 @@
 
     {{-- New Arrival Section --}}
     <section id="NewArrival">
-        <div class="container">
+        <div class="container-fluid">
             <h5>New Arrival Just Landed</h5>
-            <div class="row text-center mt-5">
+            <div class="row text-center">
+                {{-- Kartu Produk Pertama --}}
                 <div class="col-md-4">
-                    <div class="card-fitur d-flex flex-column justify-content-center align-items-center">
-                        <img src="{{ asset('/img/sepatu1.svg') }}" alt="">
+                    <div class="card-fitur d-flex justify-content-center align-items-center">
+                        <img class="sepatu1" src="{{ asset('/img/sepatu3.svg') }}" alt="">
                     </div>
-                    <div class="info-card mt-3">
+                    <div class="info-card text-start mt-4">
                         <h4>Nike Air Max 1 Essential Premium</h4>
-                        <p>Men’s Shoes</p>
-                        <p>Rp 1,749,000</p>
+                        <p class="jenisSepatu">Men’s Shoes</p>
+                        <p class="hargaSepatu">Rp 1,749,000</p>
                     </div>
                 </div>
+                
+                {{-- Kartu Produk Kedua --}}
                 <div class="col-md-4">
-                    <div class="card-fitur d-flex flex-column justify-content-center align-items-center">
+                    <div class="card-fitur d-flex justify-content-center align-items-center">
                         <img src="{{ asset('/img/sepatu2.svg') }}" alt="">
                     </div>
-                    <div class="info-card mt-3">
+                    <div class="info-card text-start mt-4">
                         <h4>G.T Hustle Academy EP</h4>
-                        <p>Women’s Shoes</p>
-                        <p>Rp 2,349,000</p>
+                        <p class="jenisSepatu">Women’s Shoes</p>
+                        <p class="hargaSepatu">Rp 2,349,000</p>
                     </div>
                 </div>
+                
+                {{-- Kartu Produk Ketiga --}}
                 <div class="col-md-4">
-                    <div class="card-fitur d-flex flex-column justify-content-center align-items-center">
-                        <img src="{{ asset('/img/sepatu3.svg') }}" alt="">
+                    <div class="card-fitur d-flex justify-content-center align-items-center">
+                        <img src="{{ asset('/img/sepatu1.svg') }}" alt="">
                     </div>
-                    <div class="info-card mt-3">
+                    <div class="info-card text-start mt-4">
                         <h4>Nike Air Max 1 Essential Voizer</h4>
-                        <p>Men’s Shoes</p>
-                        <p>Rp 2,800,000</p>
+                        <p class="jenisSepatu">Men’s Shoes</p>
+                        <p class="hargaSepatu">Rp 2,800,000</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Dont Miss Section -->
-    <section id="hero" class="text-center mt-2">
-        <img src="{{ asset('img/dontmiss.svg') }}" alt="hero" class="hero-img">
-        <div class="hero-content">
-            <h1 class="hero-title">Equip Every Step Toward Success!</h1>
-            <a href="#" class="btn btn-primary">Shop</a>
+    <!-- Classic Spotlight Section -->
+    <section id="classic" class="mt-5 overflow-hidden w-100">
+        <div class="container-fluid px-0">
+          <div class="position-relative">
+            <h5>Classics Spotlight</h5>
+            <div class="row mx-0">
+              <div class="col-12 d-flex justify-content-center">
+                <div class="card-fitur me-3 position-relative">
+                  <img src="{{ asset('/img/gambar1.svg') }}" alt="" />
+                  <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"></div>
+                </div>
+                <div class="card-fitur me-3 position-relative">
+                  <img src="{{ asset('/img/gambar2.svg') }}" alt="" />
+                  <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"></div>
+                </div>
+                <div class="card-fitur me-3 position-relative">
+                  <img src="{{ asset('/img/gambar3.svg') }}" alt="" />
+                  <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"></div>
+                </div>
+                <div class="card-fitur me-3 position-relative">
+                  <img src="{{ asset('/img/gambar4.svg') }}" alt="" />
+                  <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"></div>
+                </div>
+                <div class="card-fitur position-relative">
+                  <img src="{{ asset('/img/gambar5baru.svg') }}" alt="" />
+                  <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"></div>
+                </div>
+              </div>
+            </div>
+            <button class="arrow-left position-absolute start-0 top-50 translate-middle-y">
+              <img src="{{ asset('/img/arrow-left.svg') }}" alt="" />
+            </button>
+            <button class="arrow-right position-absolute end-0 top-50 translate-middle-y">
+              <img src="{{ asset('/img/arrow-right.svg') }}" alt="" />
+            </button>
+          </div>
         </div>
     </section>
+      
+    
+
+    <!-- Dont Miss Section -->
+    <section id="hero" class="mt-2">
+        <div class="container">
+          <h5 class="hero-heading">Don't Miss</h5>
+          <img src="{{ asset('img/dontmiss.svg') }}" alt="hero" class="hero-img">
+          <div class="hero-content">
+            <h1 class="hero-title">Equip Every Step Toward Success!</h1>
+            <a href="#" class="btn btn-primary">Shop</a>
+          </div>
+        </div>
+    </section>
+      
 
     <!-- Footer -->
     <footer id="Footer">
@@ -94,7 +144,7 @@
             <div class="row text-white py-5">
                 <div class="col-md-4">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="{{ asset('/images/logoCarbonStockID-LightMode.png') }}" alt="Logo" class="me-2" />
+                    <img src="{{ asset('/img/mini-logo.svg') }}" alt="Logo" class="me-2" />
                     <span>AthleteZone</span>
                 </div>
                 <p>Hak Cipta © 2024 CarbonStockID. Semua hak dilindungi</p>

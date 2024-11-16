@@ -1,8 +1,7 @@
 /* General Styles */
 body {
-    background-color: #f5f5f7;
+    background-color: #ffffff;
     font-family: "Poppins", sans-serif;
-    color: #333;
 }
 
 /* Navbar Styling */
@@ -59,6 +58,7 @@ body {
     letter-spacing: 4px;
     max-width: 800px;
     margin-bottom: 10px;
+    margin-top: 40px;
 }
 
 .hero-subtitle {
@@ -90,6 +90,147 @@ body {
     cursor: pointer; /* Tambahan agar tombol terlihat interaktif */
 }
 
+/* Fitur New Arrival */
+#NewArrival {
+  padding: 67px 78px;
+  background-color: #ffffff;
+}
+
+h5 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 31.5px */
+  letter-spacing: 0.42px;
+}
+
+#NewArrival .jenisSepatu {
+  color: var(--Text-Tint-20, #6C7581);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#NewArrival .hargaSepatu {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 28.5px */
+  letter-spacing: 0.38px;
+}
+
+.info-card {
+  text-align: left; 
+}
+
+
+.sepatu1 {
+  border-radius: 8px;
+}
+
+.card-fitur {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  background-color: var(--pr-colorB);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.card-fitur img {
+  width: 100%;
+}
+
+/* Fitur Classic */
+#classic {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#classic h5 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  margin-left: 85px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.card-fitur img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.arrow-left{
+  z-index: 1000;
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.arrow-right {
+  z-index: 1000;
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+/* Dont Miss Section */
+.hero-heading {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 35px;
+}
+
+.hero-heading {
+  margin-left: 20px; 
+}
+
 /* Footer */
 #Footer {
     background-color: #0B4575 ;
@@ -97,83 +238,86 @@ body {
     padding: 67px 78px;
   }
   
-  #Footer p {
-    color: #ffffff;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.48px;
-  }
-  
-  #Footer span {
-    color: var(--Neutral-6, #f0f1f2);
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%;
-  }
-  
-  #Footer .container .row > div {
-    padding: 0 15px;
-  }
-  
-  .circle-icon {
-    width: 38px;
-    height: 38px;
-    background-color: #000000;
-    border-radius: 50%;
-  }
-  
-  #Footer h5 {
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 33px;
-  }
-  
-  #Footer ul {
-    padding: 0;
-    list-style: none;
-  }
-  
-  #Footer ul li {
-    margin-bottom: 10px;
-  }
-  
-  #Footer ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  #Footer ul li i {
-    margin-right: 10px;
-  }
-  
-  .list-navigasi {
-    color: #ffffff;
-    font-size: 24px;
-    line-height: 150%;
-    letter-spacing: 0.48px;
-  }
-  
-  .list-kontak {
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.48px;
-  }
-  
-  .circle-scroll {
-    width: 70px;
-    height: 70px;
-    background-color: #000000;
-    border-radius: 50%;
-  }
-  
-  .circle-scroll img {
-    width: 24px;
-    height: 24px;
-  }
+#Footer p {
+  color: #ffffff;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.48px;
+}
+
+#Footer span {
+  color: var(--Neutral-6, #f0f1f2);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+#Footer .container .row > div {
+  padding: 0 15px;
+}
+
+.circle-icon {
+  width: 38px;
+  height: 38px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+#Footer h5 {
+  color: var(--Neutral-7, #FFF);
+  /* Desktop/Heading 4/Bold/DMSans */
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 39px */
+}
+
+#Footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+#Footer ul li {
+  margin-bottom: 10px;
+}
+
+#Footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#Footer ul li i {
+  margin-right: 10px;
+}
+
+.list-navigasi {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.48px;
+}
+
+.list-kontak {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.48px;
+}
+
+.circle-scroll {
+  width: 70px;
+  height: 70px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.circle-scroll img {
+  width: 24px;
+  height: 24px;
+}
   
 
