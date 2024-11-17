@@ -52,7 +52,7 @@ body {
   
 .search-input {
     padding-left: 50px;
-    font-size: 20px;
+    font-size: 18px;
 }
   
 .search-icon {
@@ -60,8 +60,8 @@ body {
     left: 15px;
     top: 50%;
     transform: translateY(-50%);
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     pointer-events: none;
 }
 
@@ -75,7 +75,7 @@ body {
 #sidebar h5 {
     font-weight: 700;
     color: #ffffff;
-    margin-top: 40px;
+    margin: 40px;
 }
 
 /* list categories shop */

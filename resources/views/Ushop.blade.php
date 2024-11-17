@@ -15,21 +15,21 @@
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container kontainer">
             <div class="d-flex align-items-center">
-                <img src="{{ asset('img/athletezone-high-resolution-logo-removebg-preview_new.png') }}" style="height: 60px; width: 80px">
+                <img src="{{ asset('img/mini-logo.svg') }}" style="height: 40px; width: 60px">
                 <p class="navbar-brand AZ">AthleteZone</p>
             </div>
             <div class="d-flex">
                 <div>
                     <form class="d-flex position-relative" role="search">
-                        <input class="form-control search-input" type="search" placeholder="Search.." aria-label="Search" />
+                        <input class="form-control search-input" type="search" placeholder="Search.." aria-label="Search"/>
                         <img src="{{ asset('img/Search-icon.svg') }}" alt="Search Icon" class="search-icon" />
                     </form>
                 </div>
                 <div class="ms-5">
-                    <img src="{{ asset('img/Shopping Chart.svg') }}" style="height: 48px; width: 45px;">
+                    <img src="{{ asset('img/Shopping Chart.svg') }}" style="height: 40px; width: 37px;">
                 </div>
                 <div class="ms-5">
-                    <img src="{{ asset('img/User.svg') }}" style="height: 48px; width: 45px;">
+                    <img src="{{ asset('img/User.svg') }}" style="height: 45px; width: 43px;">
                 </div>
             </div>
         </div>
@@ -49,8 +49,8 @@
             </tr>
         </table>
     </section> --}}
-    <div class="row" id="sidebar">
-        <div class="col-md-12 d-flex flex-column align-items-center">
+    <div class="row g-0" style="width: 100%; height: 100%" >
+        <div class="col-md-3 d-flex flex-column align-items-center" id="sidebar">
             <h5>Categories</h5>
             <p>Shoes</p>
             <p>Jerseys</p>
@@ -58,6 +58,11 @@
             <p>Pants</p>
             <p>Caps</p>
         </div>
+
+        <div class="col-md-3">
+
+        </div>
     </div>
+
 </body>
 </html>
