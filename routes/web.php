@@ -17,3 +17,7 @@ Route::get('/register', function () {
 Route::get('/AdminHomepage', function () {
     return view('Adminhomepage');
 });
+
+Route::get('/Ushop', function () {
+    return view('Ushop');
+});
