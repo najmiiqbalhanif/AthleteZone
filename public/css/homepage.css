@@ -32,13 +32,6 @@ body {
     min-height: 100vh; /* Full viewport height */
 }
 
-.hero-img {
-    width: 100%;
-    max-width: 1300px;
-    height: auto;
-    border-radius: 5px;
-}
-
 .hero-content {
     display: flex;
     flex-direction: column;
@@ -89,6 +82,82 @@ body {
     text-decoration: none;
     cursor: pointer; /* Tambahan agar tombol terlihat interaktif */
 }
+
+/* HeroBaru Section */
+#herobaru {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+  min-height: 100vh; /* Full viewport height */
+}
+
+#herobaru .btn-hero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #0B4575;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  width: 248px;
+  height: 62px;
+  border: none;
+  margin-top: 26px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer; 
+}
+
+#herobaru .btn-primary {
+  display: inline-flex; /* Ini memastikan tombol terpusat */
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #0B4575;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  width: 140px;
+  height: 62px;
+  border: none;
+  margin-top: 26px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer; /* Tambahan agar tombol terlihat interaktif */
+}
+
+.isi {
+  display: flex;
+  flex-direction: column; /* Membuat elemen vertikal */
+  align-items: center; /* Agar tombol terpusat secara horizontal */
+}
+
+.hero-image-wrapper {
+  position: relative;
+  display: inline-block; /* Agar sesuai dengan ukuran gambar */
+}
+
+.hero-image-wrapper img {
+  display: block; /* Hindari whitespace pada gambar */
+  width: 100%; /* Pastikan gambar responsive */
+}
+
+.hero-image-wrapper .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out 0.2s;
+  width: 100%; /* Pastikan overlay menyesuaikan gambar */
+  height: 100%;
+}
+
+.hero-image-wrapper:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+
 
 /* Fitur New Arrival */
 #NewArrival {
@@ -231,6 +300,7 @@ h4 {
   margin-left: 20px; 
 }
 
+
 /* Footer */
 #Footer {
     background-color: #0B4575 ;
@@ -262,7 +332,7 @@ h4 {
 .circle-icon {
   width: 38px;
   height: 38px;
-  background-color: #000000;
+  background-color: #ccbebe28;
   border-radius: 50%;
 }
 
