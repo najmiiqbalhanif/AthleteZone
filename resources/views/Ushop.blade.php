@@ -11,45 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    {{-- NAVBAR --}}
-    <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container kontainer">
-            <div class="d-flex align-items-center">
-                <img src="{{ asset('img/mini-logo.svg') }}" style="height: 40px; width: 60px">
-                <p class="navbar-brand AZ">AthleteZone</p>
-            </div>
-            <div class="d-flex">
-                <div>
-                    <form class="d-flex position-relative" role="search">
-                        <input class="form-control search-input" type="search" placeholder="Search.." aria-label="Search"/>
-                        <img src="{{ asset('img/Search-icon.svg') }}" alt="Search Icon" class="search-icon" />
-                    </form>
-                </div>
-                <div class="ms-5">
-                    <img src="{{ asset('img/Shopping Chart.svg') }}" style="height: 40px; width: 37px;">
-                </div>
-                <div class="ms-5">
-                    <img src="{{ asset('img/User.svg') }}" style="height: 45px; width: 43px;">
-                </div>
-            </div>
-        </div>
-    </nav>
+    
+    @include('Unavbar')
 
     {{-- SIDEBAR --}}
-    {{-- <section>
-        <table class="sidebar">
-            <tr>
-                <td>Categories</td>                
-            </tr>
-            <tr>
-                <td>Shoes</td>
-            </tr>
-            <tr>
-                <td>Shoes</td>
-            </tr>
-        </table>
-    </section> --}}
-    <div class="row g-0" style="width: 100%; height: 100%" >
+    <div class="row g-0" style="width: 100%; height: 100%">
         <div class="col-md-3 d-flex flex-column align-items-center" id="sidebar">
             <h5>Categories</h5>
             <p>Shoes</p>
@@ -58,11 +24,83 @@
             <p>Pants</p>
             <p>Caps</p>
         </div>
-
-        <div class="col-md-3">
-
+        <div class="col-md-9">
+            <div class="row g-0 mb-5 pt-4" style="padding-left: 350px; width: 100vw; height: 100%" >
+                {{-- Konten Sepatu --}}
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img src="{{ asset('img/sepatu1.svg') }}" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-text">Nike Air Max 1 Essential Premium</p>
+                            <p style="color: #6C7581">Men's Shoes</p>
+                            <p>Rp1,749,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img src="{{ asset('img/sepatu2.svg') }}" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-text">G.T Hustle Academy EP</p>
+                            <p style="color: #6C7581">Women's Shoes</p>
+                            <p>Rp2,349,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img src="{{ asset('img/sepatu3.svg') }}" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-text">Nike Air Max 1 Essential Voizer</p>
+                            <p style="color: #6C7581">Men's Shoes</p>
+                            <p>Rp2,800,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width:20rem;">
+                        <a href=""><img src="{{ asset('img/sepatu1.svg') }}" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-text">Nike Air Max 1 Essential Premium</p>
+                            <p style="color: #6C7581">Men's Shoes</p>
+                            <p>Rp1,749,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width:20rem;">
+                        <a href=""><img src="{{ asset('img/sepatu2.svg') }}" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-text">G.T Hustle Academy EP</p>
+                            <p style="color: #6C7581">Women's Shoes</p>
+                            <p>Rp2,349,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width:20rem;">
+                        <a href=""><img src="{{ asset('img/sepatu3.svg') }}" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-text">Nike Air Max 1 Essential Voizer</p>
+                            <p style="color: #6C7581">Men's Shoes</p>
+                            <p>Rp2,800,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width:20rem;">
+                        <a href=""><img src="{{ asset('img/sepatu1.svg') }}" class="card-img-top"></a>
+                        <div class="card-body">
+                            <p class="card-text">Nike Air Max 1 Essential Premium</p>
+                            <p style="color: #6C7581">Men's Shoes</p>
+                            <p>Rp1,749,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 
 </body>
 </html>
