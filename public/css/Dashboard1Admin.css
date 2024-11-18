@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  
+  }
+
+  .sidebar_menu-icon {
+    height: 24px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .sidebar_menu-icon-1 {
+    height: 24px;
+    object-fit: cover;
+    cursor: pointer;
+    display: none;
+  }
+
+  .dhi-group-1 {
+    display: none;
+  }
+
+  .gross-sales-profile{
+    background: linear-gradient(202deg, #008bff, #003460);
+    box-shadow: var(--shadow-sm);
+    width: 32%;
+    display: flex;
+    padding: 32px 28px;
+    border-radius: var(--radius-xs);
+    @media only screen and (max-width: 1050x){
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    @media only screen and (max-width: 550px){
+      padding: 20px;
+    }
+  }
+
+  .gross-sales-profile_row{
+    gap: var(--space-sm);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gross-sales-prfile_user-image {
+    height: 46px;
+  }
+
+  .gross-sales-profile_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .gross-sales-profile_title {
+    color: var(--white_a700) !important;
+    text-shadow: 0px 4px 4px #0000003f;
+  }
+
+  .gross-sales-profile_amount {
+    text-shadow: 0px 4px 4px #0000003f;
+  }
+
+  .dashboard_title {
+    color: var(--black_900) !important;
+  }
+
+  .categories_item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+
+
+
+  .dashboard1_admin {
+    overflow-x: scroll;
+    background-color: var(--white_a700);
+    width: 100%;
+  }
+
+  .columnathlezo {
+    width: 1440px;
+  }
+
+  .header {
+    display: flex;
+    background-color: var(--white_a700);
+    box-shadow: var(--shadow-xs);
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-lg);
+    @media only screen and (max-width: 550px){
+      padding: 20px;
+    }
+  }
+
+  .header_row {
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    @media only screen and (max-width: 1050px){
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  .header_row--athlete-zone {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header_image--athlete {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+  }
+
+  .header_logo {
+    height: 42px;
+    width: 176px;
+    object-fit: contain;
+  }
+
+  .header_row--search {
+    gap: 34px;
+    display: flex;
+    width: 36%;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 1050px){
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 550px){
+      flex-direction: column;
+    }
+  }
+
+  .header_search {
+    color: var(gray_600);
+    padding-left: 20px;
+    padding-right: 12px;
+    letter-spacing: 0.48px;
+    font-size: 24px;
+    gap: var(--space-xs);
+    display: flex;
+    background-color: var(--white_a700);
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    height: 62px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--blue_gray_200);
+  }
+
+ .dhi-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+ } 
+
+ .search {
+  height: 24px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 24px;
+ }
+
+ .header_icon--lock {
+  height: 64px;
+  width: 64px;
+  object-fit: cover;
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }  
+ }
+
+ .newscreebody {
+  gap: var(--space-lg);
+  display: flex;
+  align-items: start;
+ }
+
+ .sidebar {
+  padding-top: 38px;
+  gap: 56px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cyan_900);
+  width: 27px;
+  height: 100vh;
+  position: sticky !important;
+  top: 0px;
+  overflow: auto;
+  @media only screen and (max-width: 550px) {
+    gap: 28px;
+    padding-top: 20px;
+  }  
+ }
+
+ .sidebar_menu {
+  align-self: stretch;
+  width: 100%;
+  padding: 0px;
+  li {
+    width: 100%;
+  }
+
+  a {
+    color: var(--white_a700);
+    font-weight: 700;
+    font-size: 24px;
+    gap: 46px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  span {
+    flex-grow: 1;
+  }
+ }
+
+ .dashboard_column {
+  margin-top: 26px;
+  gap: var(--space-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: start;
+ }
+
+ .dashboard_list {
+  margin-right: 226px;
+  gap: var(--space-md);
+  display: flex;
+  align-self: stretch;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    margin-right: 0px;
+  }  
+ }
+

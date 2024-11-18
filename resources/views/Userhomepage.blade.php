@@ -22,7 +22,7 @@
         <div class="hero-content">
             <h1 class="hero-title">Move Your Body, Unlock Your Potential!</h1>
             <p class="hero-subtitle">Start your journey with AthleteZone</p>
-            <button onclick="window.location='{{ route('Ushop') }}'" class="btn btn-hero1">Shop</button>
+            <button onclick="window.location='{{ url('Ushop') }}'" class="btn btn-hero1">Shop</button>
         </div>
     </section>
 
@@ -118,7 +118,7 @@
           <img src="{{ asset('img/dontmiss.svg') }}" alt="hero" class="hero-img">
           <div class="hero-content">
             <h1 class="hero-title">Equip Every Step Toward Success!</h1>
-            <button onclick="window.location='{{ route('Ushop') }}'" class="btn btn-hero1">Shop</button>
+            <button onclick="window.location='{{ url('Ushop') }}'" class="btn btn-hero1">Shop</button>
           </div>
         </div>
     </section>
