@@ -15,15 +15,54 @@
 <body>
 
     {{-- NAVBAR --}}
-    @include('Unavbar')
+    @include('Anavbar')
 
     {{-- Dashboard Section --}}
-    <section>
-
+    <section id="dashboard">
+        <h1 class="dashboard-title">Dashboard</h1>
+        <div id="sections" class="row sections mt-2 ms-3 hidden">
+            <div class="col-md-2 section">
+                <h2>Order</h2>
+                <ul>
+                    <li>Current Orders</li>
+                    <li>Order History</li>
+                    <li>Returns & Refunds</li>
+                </ul>
+            </div>
+            <div class="col-md-2 section">
+                <h2>Library</h2>
+                <ul>
+                    <li>Item Library</li>
+                    <li>Categories</li>
+                </ul>
+            </div>
+            <div class="col-md-2 section">
+                <h2>Reports</h2>
+                <ul>
+                    <li>Sales</li>
+                    <li>Transaction</li>
+                </ul>
+            </div>
+            <div class="col-md-2 section">
+                <h2>Reviews</h2>
+                <ul>
+                    <li>Product Reviews</li>
+                    <li>Feedback</li>
+                </ul>
+            </div>
+            <div class="col-md-2 section">
+                <h2>User</h2>
+                <ul>
+                    <li>Staff Management</li>
+                    <li>Customer List</li>
+                </ul>
+            </div>
+        </div>        
     </section>
 
+
     {{-- Hero Section Admin --}}
-    <section id="herobaru" class="text-center mt-2">
+    <section id="herobaru" class="text-center">
         <div class="hero-image-wrapper position-relative">
             <img src="{{ asset('img/imagehero.svg') }}" alt="hero">
             <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
@@ -173,7 +212,7 @@
                     <img src="{{ asset('/img/mini-logo.svg') }}" alt="Logo" class="me-2" />
                     <span>AthleteZone</span>
                 </div>
-                <p>Hak Cipta © 2024 CarbonStockID. Semua hak dilindungi</p>
+                <p>Hak Cipta © 2024 AthleteZone. Semua hak dilindungi</p>
                 <div class="social-links d-flex">
                     <div class="circle-icon position-relative me-2">
                     <a href="https://instagram.com"><img src="{{ asset('/img/Instagram.svg') }}" alt="Instagram" class="position-absolute top-50 start-50 translate-middle" /></a>
@@ -224,5 +263,7 @@
             </div>
         </div>
         </footer>
+
+        <script src="{{ asset('js/Ahomepage.js') }}"></script>
 </body>
 </html>

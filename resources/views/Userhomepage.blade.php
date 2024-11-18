@@ -14,7 +14,7 @@
 </head>
 <body>
     {{-- NAVBAR --}}
-    @include('Anavbar')
+    @include('Unavbar')
 
     <!-- Hero Section -->
     <section id="hero" class="text-center mt-2">
@@ -134,7 +134,7 @@
                     <img src="{{ asset('/img/mini-logo.svg') }}" alt="Logo" class="me-2" />
                     <span>AthleteZone</span>
                 </div>
-                <p>Hak Cipta © 2024 CarbonStockID. Semua hak dilindungi</p>
+                <p>Hak Cipta © 2024 AthleteZone Semua hak dilindungi</p>
                 <div class="social-links d-flex">
                     <div class="circle-icon position-relative me-2">
                     <a href="https://instagram.com"><img src="{{ asset('/img/Instagram.svg') }}" alt="Instagram" class="position-absolute top-50 start-50 translate-middle" /></a>
