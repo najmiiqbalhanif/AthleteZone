@@ -67,8 +67,11 @@
             <img src="{{ asset('img/imagehero.svg') }}" alt="hero">
             <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                 <div class="isi position-absolute top-50 start-50 translate-middle">
-                    <a href="#" class="btn btn-hero">Upload photo</a>
-                    <a href="#" class="btn btn-hero">Remove photo</a>
+                    <form id="uploadPhotoForm" enctype="multipart/form-data" style="display: none;">
+                        <input type="file" id="photoInput" name="photo" accept="image/*">
+                    </form>
+                    <a href="#" class="btn btn-hero" id="uploadPhotoBtn">Upload photo</a>
+                    <a href="#" class="btn btn-hero" id="removePhotoBtn">Remove photo</a>
                 </div>
             </div>
         </div>
@@ -78,6 +81,7 @@
             <a href="#" class="btn btn-primary">Shop</a>
         </div>
     </section>
+
 
     {{-- New Arrival Section --}}
     <section id="NewArrival">
@@ -190,8 +194,11 @@
             <img src="{{ asset('img/dontmiss.svg') }}" alt="hero">
             <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
                 <div class="isi position-absolute top-50 start-50 translate-middle">
-                    <a href="#" class="btn btn-hero">Upload photo</a>
-                    <a href="#" class="btn btn-hero">Remove photo</a>
+                    <form id="dontMissUploadForm" enctype="multipart/form-data" style="display: none;">
+                        <input type="file" id="dontMissPhotoInput" name="photo" accept="image/*">
+                    </form>
+                    <a href="#" class="btn btn-hero" id="dontMissUploadPhotoBtn">Upload photo</a>
+                    <a href="#" class="btn btn-hero" id="dontMissRemovePhotoBtn">Remove photo</a>
                 </div>
             </div>
         </div>
