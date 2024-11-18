@@ -21,3 +21,7 @@ Route::get('/AdminHomepage', function () {
 Route::get('/Ushop', function () {
     return view('Ushop');
 });
+
+Route::get('/Ushop', function () {
+    return view('Ushop'); 
+})->name('Ushop'); 

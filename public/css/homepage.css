@@ -69,6 +69,10 @@ body {
     cursor: pointer; /* Tambahan agar tombol terlihat interaktif */
 }
 
+.btn-hero1:hover {
+  background-color: #668eb2;
+}
+
 /* HeroBaru Section */
 #herobaru {
   flex-direction: column;

@@ -22,7 +22,7 @@
         <div class="hero-content">
             <h1 class="hero-title">Move Your Body, Unlock Your Potential!</h1>
             <p class="hero-subtitle">Start your journey with AthleteZone</p>
-            <a href="#" class="btn btn-hero1">Shop</a>
+            <button onclick="window.location='{{ route('Ushop') }}'" class="btn btn-hero1">Shop</button>
         </div>
     </section>
 
