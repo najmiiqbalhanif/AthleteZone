@@ -13,23 +13,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid d-flex align-items-center">
-            <img src="{{ asset('img/logo.png') }}" alt="logo" class="image-logo">
-            <a class="navbar-brand ms-2" href="#">AthleteZone</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="d-flex ms-auto me-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Cari..." aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                </form>
-                <img src="{{ asset('img/Buy.svg') }}" alt="cart" class="image-cart">
-                <img src="{{ asset('img/User.svg') }}" alt="user" class="image-profile ms-3">
-            </div>
-        </div>
-    </nav>
 
-    {{-- Hero Secrion Admin --}}
+    {{-- NAVBAR --}}
+    @include('Unavbar')
+
+    {{-- Dashboard Section --}}
+    <section>
+
+    </section>
+
+    {{-- Hero Section Admin --}}
     <section id="herobaru" class="text-center mt-2">
         <div class="hero-image-wrapper position-relative">
             <img src="{{ asset('img/imagehero.svg') }}" alt="hero">
@@ -50,7 +43,17 @@
     {{-- New Arrival Section --}}
     <section id="NewArrival">
         <div class="container-fluid">
-            <h5>New Arrival Just Landed</h5>
+            <div class="row mb-4 d-flex align-items-center">
+                <div class="col-10">
+                    <h5>New Arrival Just Landed</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <h4 class="add-more-text">add more..</h4>
+                    <button class="button-fitur ms-2">
+                        <img src="{{ asset('/img/Label.svg') }}" alt="" class="arrow-icon" />
+                    </button>
+                </div>                
+            </div>
             <div class="row text-center">
                 {{-- Kartu Produk Pertama --}}
                 <div class="col-md-4">
@@ -95,7 +98,17 @@
     <section id="classic" class="mt-5 overflow-hidden w-100">
         <div class="container-fluid px-0">
           <div class="position-relative">
-            <h5>Classics Spotlight</h5>
+            <div class="row mb-4 d-flex kanan-classic">
+                <div class="col-10">
+                    <h5>New Arrival Just Landed</h5>
+                </div>
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <h4 class="add-more-text">add more..</h4>
+                    <button class="button-fitur ms-2">
+                        <img src="{{ asset('/img/Label.svg') }}" alt="" class="arrow-icon" />
+                    </button>
+                </div>                
+            </div>
             <div class="row mx-0">
               <div class="col-12 d-flex justify-content-center">
                 <div class="card-fitur me-3 position-relative">
@@ -131,10 +144,9 @@
     </section>
       
     
-
     <!-- Dont Miss Section -->
     <section id="herobaru" class="text-center mt-2">
-        <h5 class="hero-heading">Don't Miss</h5>
+        <h5 class="dontmiss-heading">Don't Miss</h5>
         <div class="hero-image-wrapper position-relative">
             <img src="{{ asset('img/dontmiss.svg') }}" alt="hero">
             <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">

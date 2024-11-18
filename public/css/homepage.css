@@ -4,20 +4,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/* Navbar Styling */
-.navbar-brand {
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: #1a1a1a;
-}
-
-.image-logo,
-.image-cart,
-.image-profile {
-    width: 20px;
-    height: 20px;
-}
-
 .image-cart {
     margin-right: 15px;
 }
@@ -65,7 +51,7 @@ body {
     letter-spacing: 0.48px;
 }
 
-.btn-primary {
+.btn-hero1 {
     display: inline-flex; /* Ini memastikan tombol terpusat */
     align-items: center;
     justify-content: center;
@@ -165,6 +151,29 @@ body {
   background-color: #ffffff;
 }
 
+#newArrival .row {
+  align-items: center; /* Ratakan vertikal */
+}
+
+.button-fitur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; 
+  height: 40px;
+  border: none;
+  background-color: #0B4575; 
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+.arrow-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+
 h5 {
   color: #000000;
   font-size: 25px;
@@ -181,6 +190,16 @@ h4 {
   font-weight: 400;
   line-height: 150%; /* 31.5px */
   letter-spacing: 0.42px;
+}
+
+.add-more-text {
+  margin-right: 5px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0; 
+  line-height: 1.2; /* Ratakan posisi */
 }
 
 #NewArrival .jenisSepatu {
@@ -248,6 +267,10 @@ h4 {
   margin: 0;
 }
 
+.kanan-classic {
+  margin-right: 90px;
+}
+
 .card-fitur img {
   width: 100%;
   height: auto;
@@ -298,6 +321,16 @@ h4 {
 
 .hero-heading {
   margin-left: 20px; 
+}
+
+.dontmiss-heading {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 35px;
+  text-align: left;
+  margin-left: 85px;
 }
 
 

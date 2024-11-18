@@ -13,21 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid d-flex align-items-center">
-            <img src="{{ asset('img/logo.png') }}" alt="logo" class="image-logo">
-            <a class="navbar-brand ms-2" href="#">AthleteZone</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="d-flex ms-auto me-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Cari..." aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                </form>
-                <img src="{{ asset('img/Buy.svg') }}" alt="cart" class="image-cart">
-                <img src="{{ asset('img/User.svg') }}" alt="user" class="image-profile ms-3">
-            </div>
-        </div>
-    </nav>
+    {{-- NAVBAR --}}
+    @include('Unavbar')
 
     <!-- Hero Section -->
     <section id="hero" class="text-center mt-2">
@@ -35,7 +22,7 @@
         <div class="hero-content">
             <h1 class="hero-title">Move Your Body, Unlock Your Potential!</h1>
             <p class="hero-subtitle">Start your journey with AthleteZone</p>
-            <a href="#" class="btn btn-primary">Shop</a>
+            <a href="#" class="btn btn-hero1">Shop</a>
         </div>
     </section>
 
@@ -131,7 +118,7 @@
           <img src="{{ asset('img/dontmiss.svg') }}" alt="hero" class="hero-img">
           <div class="hero-content">
             <h1 class="hero-title">Equip Every Step Toward Success!</h1>
-            <a href="#" class="btn btn-primary">Shop</a>
+            <a href="#" class="btn btn-hero1">Shop</a>
           </div>
         </div>
     </section>
