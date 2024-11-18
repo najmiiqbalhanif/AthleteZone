@@ -118,7 +118,7 @@
           <img src="{{ asset('img/dontmiss.svg') }}" alt="hero" class="hero-img">
           <div class="hero-content">
             <h1 class="hero-title">Equip Every Step Toward Success!</h1>
-            <a href="#" class="btn btn-hero1">Shop</a>
+            <button onclick="window.location='{{ route('Ushop') }}'" class="btn btn-hero1">Shop</button>
           </div>
         </div>
     </section>
