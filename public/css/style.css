@@ -54,14 +54,22 @@ body {
     height: 40px;
     width: 100px;
     text-align: center;
+    cursor: pointer;
 }
 
 #sidebar p:hover {
+    background-color: #bc7a4a;
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+    transition: ease 200ms;
+}
+
+#sidebar p.active {
     background-color: #FF6B00;
     border-radius: 50px;
     height: 40px;
     width: 100px;
-    transition: ease 300ms;
 }
 
 .card {
