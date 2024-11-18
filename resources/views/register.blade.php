@@ -15,7 +15,7 @@
         <div class="row rounded-5 p-3 bg-white">
             <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: #0b4575;">
                 <div class="featured-image mb-3">
-                    <img src="athletezone-high-resolution-logo-removebg-preview_new.png" class="img-fluid" style="width: 250px;">
+                    <img src="{{ asset('img/mini-logo.svg') }}" class="img-fluid" style="width: 200px;">
                 </div>
                 <p class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;">Be Verified</p>
                 <small class="text-white text-wrap text-center" style="width: 17rem;font-family: 'Courier New', Courier, monospace;">Join experienced Designers on this platform.</small>
@@ -23,7 +23,7 @@
             <div class="col-md-6 my-auto p-5">
 
                 <h3 class="judul-register">Get Started</h3>
-                <p class="ms-1" style="color: #00000081;">Already have an account? <a href="login.html" style="text-decoration: none; color: black;">Sign in</a></p>
+                <p class="ms-1" style="color: #00000081;">Already have an account? <a href="{{ url('login') }}" style="text-decoration: none; color: black;">Sign in</a></p>
                 <form action="">
                     <div class="input-username-register mb-2">
                         <label for="" class="ms-1" style="color: #00000081;">Username</label>
@@ -41,6 +41,9 @@
                 </form>
             </div>
         </div>
+    </div>
+    <div>
+        <br>
     </div>
 </body>
 </html>
