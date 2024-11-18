@@ -32,7 +32,7 @@
             
             <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: #0b4575;">
                 <div class="featured-image mb-3">
-                    <img src="{{ asset('images/athletezone-high-resolution-logo-removebg-preview_new.png') }}" class="img-fluid" style="width: 250px;">
+                    <img src="{{ asset('img/mini-logo.svg') }}" class="img-fluid" style="width: 200px;">
                 </div>
                 <p class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;">Be Verified</p>
                 <small class="text-white text-wrap text-center" style="width: 17rem; font-family: 'Courier New', Courier, monospace;">Join experienced Designers on this platform.</small>
