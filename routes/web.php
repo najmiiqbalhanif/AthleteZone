@@ -24,4 +24,8 @@ Route::get('/AdminHomepage', function () {
 
 Route::get('/Ushop', function () {
     return view('Ushop'); 
+});
+
+Route::get('/Ucart', function () {
+    return view('Ucart'); 
 }); 
