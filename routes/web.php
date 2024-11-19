@@ -22,10 +22,6 @@ Route::get('/AdminHomepage', function () {
     return view('Adminhomepage');
 });
 
-Route::get('/Ushop', function () {
-    return view('Ushop'); 
-});
-
-Route::get('/Ucart', function () {
-    return view('Ucart'); 
+Route::get('/Uproduct', function () {
+    return view('Uproduct'); 
 }); 
