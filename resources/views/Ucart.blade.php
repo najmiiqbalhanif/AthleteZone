@@ -26,10 +26,10 @@
                 <div class="d-flex mb-4 border-bottom pb-3">
                     <div>
                         <img src="{{ asset('img/cart2.svg') }}" alt="Nike Court Vision" class="me-3" style="width: 150px; height: auto;">
-                        <div class="d-flex align-items-center mt-3">
-                            <button class="btn btn-outline-secondary btn-sm me-2">-</button>
-                            <span>1</span>
-                            <button class="btn btn-outline-secondary btn-sm ms-2">+</button>
+                        <div class="d-flex align-items-center justify-content-between mt-3" style="width: 100px; border: 1px solid #ddd; border-radius: 30px; padding: 5px;">
+                            <button class="btn btn-outline-secondary btn-sm" style="border: none;">-</button>
+                            <span style="font-weight: bold; font-size: 16px;">1</span>
+                            <button class="btn btn-outline-secondary btn-sm" style="border: none;">+</button>
                         </div>
                     </div>
                     <div>
@@ -47,11 +47,11 @@
                 <div class="d-flex mb-4 border-bottom pb-3">
                     <div>
                         <img src="{{ asset('img/cart1.svg') }}" alt="Nike Lunar Roam" class="me-3" style="width: 150px; height: auto;">
-                        <div class="d-flex align-items-center mt-3">
-                            <button class="btn btn-outline-secondary btn-sm me-2">-</button>
-                            <span>1</span>
-                            <button class="btn btn-outline-secondary btn-sm ms-2">+</button>
-                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-3" style="width: 100px; border: 1px solid #ddd; border-radius: 30px; padding: 5px;">
+                            <button class="btn btn-outline-secondary btn-sm" style="border: none;">-</button>
+                            <span style="font-weight: bold; font-size: 16px;">1</span>
+                            <button class="btn btn-outline-secondary btn-sm" style="border: none;">+</button>
+                        </div>                      
                     </div>
                     <div>
                         <h4 class="fw-bold">Nike Lunar Roam</h4>
