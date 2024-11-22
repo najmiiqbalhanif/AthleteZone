@@ -130,25 +130,24 @@ body {
     letter-spacing: 0.48px;
 }
 
-.btn-hero1 {
+.btn-summary {
     display: inline-flex; /* Ini memastikan tombol terpusat */
     align-items: center;
     justify-content: center;
     border-radius: 50px;
     background: #0B4575;
     color: #FFF;
-    font-size: 24px;
-    font-weight: 700;
-    width: 140px;
-    height: 62px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
     border: none;
-    margin-top: 26px;
+    margin-top: 5px;
     text-align: center;
     text-decoration: none;
     cursor: pointer; /* Tambahan agar tombol terlihat interaktif */
 }
 
-.btn-hero1:hover {
+.btn-summary:hover {
   background-color: #668eb2;
 }
 

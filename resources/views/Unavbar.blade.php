@@ -25,7 +25,7 @@
                     </form>
                 </div>
                 <div class="ms-5">
-                    <img src="{{ asset('img/Shopping Chart.svg') }}" style="height: 40px; width: 37px;">
+                    <a href="/Ucart"><img src="{{ asset('img/Shopping Chart.svg') }}" style="height: 40px; width: 37px;"></a>
                 </div>
                 <div class="ms-5">
                     <img src="{{ asset('img/User.svg') }}" style="height: 45px; width: 43px;">

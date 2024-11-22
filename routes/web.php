@@ -25,3 +25,11 @@ Route::get('/AdminHomepage', function () {
 Route::get('/Uproduct', function () {
     return view('Uproduct'); 
 }); 
+
+Route::get('/Ucart', function () {
+    return view('Ucart'); 
+}); 
+
+Route::get('/Ushop', function () {
+    return view('Ushop'); 
+}); 
