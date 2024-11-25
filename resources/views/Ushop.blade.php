@@ -29,7 +29,7 @@
                 <div class="row g-0 mb-2 pt-4" style="padding-left: 350px; width: 99vw; height: fit-content"> 
                     <div class="col-md-4">
                         <div class="card" style="width: 20rem;">
-                            <a href="" style="text-decoration: none; color: black">
+                            <a href="/Uproduct" style="text-decoration: none; color: black">
                                 <img src="{{ asset('img/sepatu1.svg') }}" class="card-img-top">
                                 <div class="card-body">
                                     <p class="card-text">Nike Air Max 1 Essential Premium</p>
